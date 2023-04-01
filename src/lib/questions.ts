@@ -166,26 +166,26 @@ export const questionsList = [
 			},
 		]
 	},
-	// {
-	// 	id: 8,
-	// 	title: "Tu dois acheter un nouveau vêtement",
-	// 	responses: [
-	// 		{
-	// 			label: "Allons voir les dernières tendances",
-	// 			type: "M",
-	// 			isCheck: false
-	// 		},
-	// 		{
-	// 			label: "Je veux qu'il soit unique",
-	// 			type: "U",
-	// 			isCheck: false
-	// 		},
-	// 		{
-	// 			label: "Le confort c'est le plus important",
-	// 			type: "D",
-	// 			isCheck: false
-	// 		},
-	// 	]
-	// },
+	{
+		id: 8,
+		title: "Tu fais tes courses :",
+		responses: [
+			{
+				label: "Tu as choisi l'horaire avec le moins de monde",
+				type: "D",
+				isCheck: false
+			},
+			{
+				label: "Tu fais attention au meilleur qualité prix",
+				type: "M",
+				isCheck: false
+			},
+			{
+				label: "Oh, il est jolie cette emballage, je prends !",
+				type: "U",
+				isCheck: false
+			},
+		]
+	},
 ]
 
