@@ -124,12 +124,15 @@ function App() {
         <div>
           {teamResult === "none" ? null :
             (
-              <div className='bg-mds-blue w-full h-full text-white flex flex-col items-center p-5 fixed top-0'>
-                <img src={logo} alt="mds-logo" className='h-16 mb-32'></img>
+              <div className='bg-mds-blue w-full h-full text-white flex flex-col items-center p-5 fixed top-0 flex flex-col justify-around items-center'>
+                <img src={logo} alt="mds-logo" className='h-16'></img>
 
-                <div className='flex flex-col justify-center items-center text-3xl'>
+                <div className='flex flex-col justify-center items-center text-3xl text-center'>
                   <p>Félicitation, tu es fait pour t'orienter dans le</p>
                   <p>{teamResult}</p>
+                </div>
+                <div className='flex justify-center items-center my-7'>
+                  <a href='https://www.mydigitalschool.com' className='bg-white px-3 py-2 text-mds-dark-blue focus:bg-mds-dark-blue focus:text-white'> Découvre MyDigitalSchool !</a>
                 </div>
               </div>
             )}

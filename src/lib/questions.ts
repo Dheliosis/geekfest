@@ -22,7 +22,7 @@ export const questionsList = [
 	},
 	{
 		id: 1,
-		title: "Tu prépares un exposé, tu préfères",
+		title: "Tu prépares un exposé, tu préfères :",
 		responses: [
 			{
 				label: "Faire la présentation l'oral",
@@ -43,7 +43,7 @@ export const questionsList = [
 	},
 	{
 		id: 2,
-		title: "Tu emmènes ton date au restaurant",
+		title: "Tu emmènes ton date au restaurant :",
 		responses: [
 			{
 				label: "Tu regardes tous les avis pour choisir le meilleur",
@@ -56,14 +56,14 @@ export const questionsList = [
 				isCheck: false
 			},
 			{
-				label: "Tu regardes tes restaurants préférés et tu choisis celui qui te semble le plus adapaté",
+				label: "Tu regardes tes restaurants préférés et tu choisis celui qui te semble le plus adapté",
 				type: "D",
 				isCheck: false
 			},
 		]
 	}, {
 		id: 3,
-		title: "Quand tu découvres un site pour la première fois",
+		title: "Quand tu découvres un site pour la première fois :",
 		responses: [
 			{
 				label: "Tu te dis que fonctionne bien (ou pas)",
@@ -71,7 +71,7 @@ export const questionsList = [
 				isCheck: false
 			},
 			{
-				label: "Tu dis que ça donne envie (ou pas)",
+				label: "Tu te dis que ça donne envie (ou pas)",
 				type: "M",
 				isCheck: false
 			},
@@ -84,7 +84,7 @@ export const questionsList = [
 	},
 	{
 		id: 4,
-		title: "Tu dois faire un cadeau",
+		title: "Tu dois faire un cadeau :",
 		responses: [
 			{
 				label: "Tu analyses la personne pour connaître le meilleur cadeau",
@@ -92,7 +92,7 @@ export const questionsList = [
 				isCheck: false
 			},
 			{
-				label: "Tu créé(e)s un jolie cadeau",
+				label: "Tu créé(e)s un joli cadeau",
 				type: "U",
 				isCheck: false
 			},
@@ -105,7 +105,7 @@ export const questionsList = [
 	},
 	{
 		id: 5,
-		title: "Tu organises ta soirée d'anniversaire",
+		title: "Tu organises ta soirée d'anniversaire :",
 		responses: [
 			{
 				label: "Tu veux que ce soit la soirée de l'année",
@@ -126,7 +126,7 @@ export const questionsList = [
 	},
 	{
 		id: 6,
-		title: "C'est dimanche, rien de prévu à l'horizon",
+		title: "C'est dimanche, rien de prévu à l'horizon :",
 		responses: [
 			{
 				label: "C'est partie pour scroller les réseaux",
@@ -147,7 +147,7 @@ export const questionsList = [
 	},
 	{
 		id: 7,
-		title: "Tu dois acheter un nouveau vêtement",
+		title: "Tu dois acheter un nouveau vêtement :",
 		responses: [
 			{
 				label: "Allons voir les dernières tendances",
@@ -160,32 +160,32 @@ export const questionsList = [
 				isCheck: false
 			},
 			{
-				label: "Le confort c'est le plus important",
+				label: "Le confort, c'est le plus important",
 				type: "D",
 				isCheck: false
 			},
 		]
 	},
-	{
-		id: 8,
-		title: "Tu dois acheter un nouveau vêtement",
-		responses: [
-			{
-				label: "Allons voir les dernières tendances",
-				type: "M",
-				isCheck: false
-			},
-			{
-				label: "Je veux qu'il soit unique",
-				type: "U",
-				isCheck: false
-			},
-			{
-				label: "Le confort c'est le plus important",
-				type: "D",
-				isCheck: false
-			},
-		]
-	},
+	// {
+	// 	id: 8,
+	// 	title: "Tu dois acheter un nouveau vêtement",
+	// 	responses: [
+	// 		{
+	// 			label: "Allons voir les dernières tendances",
+	// 			type: "M",
+	// 			isCheck: false
+	// 		},
+	// 		{
+	// 			label: "Je veux qu'il soit unique",
+	// 			type: "U",
+	// 			isCheck: false
+	// 		},
+	// 		{
+	// 			label: "Le confort c'est le plus important",
+	// 			type: "D",
+	// 			isCheck: false
+	// 		},
+	// 	]
+	// },
 ]
 
